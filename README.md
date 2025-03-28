@@ -1,1 +1,21 @@
 # Ancient-Coin-Classification
+Ancient coin classification is a challenging task due to the variations in design,
+wear, and limited labelled data. This study explores the use of Convolutional
+Neural Networks (CNNs) and Vision Transformers (ViTs) for classifying
+Roman Republican coins using RRC-60 dataset.
+An InceptionV3-based model is improved by fine-tuning and integrating a
+Squeeze-and-Excitation Network (SENet), which applies a channel-wise
+attention mechanism to enhance feature extraction. The final InceptionV3-
+based model achieves 96.58% accuracy. The ViT model, leveraging selfattention mechanisms to capture global relationships in images, reaches
+99.10% accuracy when fully fine-tuned. Both models benefit from pretraining
+on ImageNet, which provides a strong feature extraction foundation before
+fine-tuning on the ancient coin dataset.
+Comparative analysis shows that the ViT model outperforms the InceptionV3-
+based model in accuracy and inference speed but requires more
+computational resources. Experiments under low-data conditions reveal that
+the ViT model maintains higher classification accuracy and robustness even
+when trained on a limited number of samples. Model interpretability is
+analysed using Grad-CAM for the InceptionV3-based model and attention
+maps for the ViT model. Results highlight the effectiveness of ViTs in ancient
+coin classification, especially with limited data, and underscore the potential of
+attention mechanisms and transfer learning for this field.
