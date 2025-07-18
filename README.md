@@ -20,7 +20,7 @@ The repository is organized as follows:
 # Dataset
 The RRC-60 dataset consists of 12000 Roman Republican coin images (6000 images for each side of the coin) accross 60 classes. Only the reverse side of the coins were used in this project.  
 You can download the dataset from [here](https://drive.google.com/file/d/1aG90R_09rUe1S0qXrs3cmFnLMm9jywMU/view?usp=sharing).  
-You can also find some information about the dataset from [here](https://github.com/siinem/RRC-60).
+You can also find some information about the dataset from [here](https://github.com/siinem/RRC-60).  
 If you are using the RRC-60 dataset, please cite [1] from the reference list below.
 
 References:  
