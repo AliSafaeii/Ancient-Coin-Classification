@@ -25,4 +25,6 @@ If you are using the RRC-60 dataset, please cite [1] from the reference list bel
 
 References:  
 [1] Aslan, S., Vascon, S., & Pelillo, M. (2019). Two sides of the same coin: Improved ancient coin classification using Graph Transduction Games. Pattern Recognition Letters, 131, 158–165. [Link](https://doi.org/10.1016/j.patrec.2019.12.007)  
+
+  
 [2] Zambanini, S., & Kampel, M. (2013). Coarse-to-fine correspondence search for classifying ancient coins. In J. I. Park & J. Kim (Eds.), Computer Vision – ACCV 2012 Workshops. ACCV 2012. Lecture Notes in Computer Science (Vol. 7729) (pp. 25–36). Springer. [Link](https://doi.org/10.1007/978-3-642-37484-5_3)  
