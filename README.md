@@ -9,15 +9,15 @@ Model interpretability was analysed using Grad-CAM for the InceptionV3-based mod
 # Repository Structure
 The repository is organized as follows:
 
-[InceptionV3.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/InceptionV3.ipynb): Training and fine-tuning the InceptionV3-based models using TensorFlow.  
-[ViT_Baseline.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Baseline.ipynb): Providing a baseline ViT-B/16 model using PyTorch.  
-[ViT_Partial_Fine_Tuning.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Partial_Fine_Tuning.ipynb): Partially fine-tuninig a ViT-B/16 model using PyTorch.  
-[ViT_Full_Fine_Tuning_80Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_80Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using the main training set (80% of the whole dataset).  
-[ViT_Full_Fine_Tuning_20Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_20Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using 25% of the main training set (20% of the whole dataset).  
-[ViT_Full_Fine_Tuning_10Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_10Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using 12.5% of the main training set (10% of the whole dataset).  
-[ViT_Full_Fine_Tuning_5Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_5Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using 6.25% of the main training set (5% of the whole dataset).  
-[GradCAM.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/GradCAM.ipynb): Grad-CAM visulaiztion for the InceptionV3-based model.  
-[Attention_Map.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/Attention_Map.ipynb): Attention map visualization for the ViT-B/16 model.
+- [InceptionV3.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/InceptionV3.ipynb): Training and fine-tuning the InceptionV3-based models using TensorFlow.  
+- [ViT_Baseline.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Baseline.ipynb): Providing a baseline ViT-B/16 model using PyTorch.  
+- [ViT_Partial_Fine_Tuning.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Partial_Fine_Tuning.ipynb): Partially fine-tuninig a ViT-B/16 model using PyTorch.  
+- [ViT_Full_Fine_Tuning_80Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_80Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using the main training set (80% of the whole dataset).  
+- [ViT_Full_Fine_Tuning_20Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_20Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using 25% of the main training set (20% of the whole dataset).  
+- [ViT_Full_Fine_Tuning_10Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_10Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using 12.5% of the main training set (10% of the whole dataset).  
+- [ViT_Full_Fine_Tuning_5Percent.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/ViT_Full_Fine_Tuning_5Percent.ipynb): Fully fine-tuning a a ViT-B/16 model using 6.25% of the main training set (5% of the whole dataset).  
+- [GradCAM.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/GradCAM.ipynb): Grad-CAM visulaiztion for the InceptionV3-based model.  
+- [Attention_Map.ipynb](https://github.com/AliSafaeii/Ancient-Coin-Classification/blob/main/Attention_Map.ipynb): Attention map visualization for the ViT-B/16 model.
 
 # Dataset
 The RRC-60 dataset consists of 12000 Roman Republican coin images (6000 images for each side of the coin) accross 60 classes. Only the reverse side of the coins were used in this project.  
